@@ -7,4 +7,20 @@ commands i used - push notes.txt
                 ( after conforming we are in branch : )
                 - touch branch.txt
                 - code branch.txt
-                
+    - git add branch.txt
+    - git commit -m "added a branch file"
+    (now after complete branch part move to main branch)
+    - git checkout main
+    (when you are sure to add on changes(feature1) to main ) then
+    - git merge feature1
+    - git push
+
+now i an making another branch feature-about-me and adding new updates
+                - git checkout main
+                - git pull(main is up to date)
+                - git checkout -b feature-about-me
+                - code branch.txt     
+
+after this  - git add branch.txt
+            - git commit -m "change throught feature-about-me branch"
+            - git push -u origin feature-about-me               
