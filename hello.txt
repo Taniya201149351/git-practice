@@ -1,6 +1,16 @@
 hello first git vesion trying 
 make a folder named GitPractice - mkdir GitPractice
                                 - cd GitPractice
+                                - git init
                                 - touch hello.txt
                                 - code hello.txt(for vs code open)
                                 or - notepad hello.txt (for open code in notepad)
+this is my first edit of file - code hello.txt
+successfully push local repo to github repo - git add hello.txt
+                                            - git commit -m 'hello.txt'
+                                            - git remote add origin https://github.com/Taniya201149351/git-practice.git
+                                            - git push -u origin main
+                                            - git remote -v (to verify remote url: should be origin  https://github.com/Taniya201149351/git-practice.git (fetch)
+                                                                                             origin  https://github.com/Taniya201149351/git-practice.git (push))
+                                            - git status(to check current status)
+                                            - ping github.com(check connectivity from gitbash , useful if use github website for remote url or network issue)                                                 
