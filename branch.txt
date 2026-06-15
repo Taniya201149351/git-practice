@@ -1,0 +1,10 @@
+i created a branch of main 
+commands i used - push notes.txt
+                - git checkout -b features1
+                (now we move to a branch , from here likely main, branch also have the pointer of the last commit . so in branch i can make changes and later can add it to 
+                main by merfing it )
+                - git branch (to check which branch you are on)
+                ( after conforming we are in branch : )
+                - touch branch.txt
+                - code branch.txt
+                
