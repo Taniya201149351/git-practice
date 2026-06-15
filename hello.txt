@@ -1,0 +1,6 @@
+hello first git vesion trying 
+make a folder named GitPractice - mkdir GitPractice
+                                - cd GitPractice
+                                - touch hello.txt
+                                - code hello.txt(for vs code open)
+                                or - notepad hello.txt (for open code in notepad)
